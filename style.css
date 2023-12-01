@@ -14,9 +14,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
+    
 }
 
 body{
+    
     background-color: black;
     
     color: #fff;
@@ -66,7 +68,7 @@ main{
 
 }
 .yazi{
-    /* border: solid 2px red; */
+    
     display:block;
     width: 600px;
     height: 400px;
@@ -146,31 +148,39 @@ section{
     width: 350px;
     background-color: black;
     text-align: center;
-    /* border: 2px solid red; */
+    
+        
+    
+
+}
+section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 
     section div p{
-        /* border: 2px solid red; */
+        
         padding: 30px;
-        display: inline-block;
-        width: 350px;
-        text-align: center;
+        
+    }
     
+    .yorum{
+        width: 80%;
+        margin:auto;
     }
 
 
-    .fa-solid {
-        font-weight: 900;
-    }
+    
 
     .music {
-        width: 30px;
-        color: white;
+        
         background-color: #ff0078;
-        border-radius: 100%;
-        padding: 20px;
+        
+        
     } 
     .video {
         background-color: rgb(126, 210, 42);
@@ -180,10 +190,15 @@ section{
         background-color: rgb(246, 240, 52);
     }
 
+    
     .music,.video,.artist{
         border-radius: 100%;
-        padding: 20px;
-        width: 30px;
+        padding: 30px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
         
     }
